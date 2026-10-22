@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 👨‍💻 Renan Lima | Portfólio
 
-First, run the development server:
+Portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedor, minhas habilidades técnicas e os projetos que venho construindo.
+
+O projeto foi desenvolvido com foco em um design moderno, responsivo e minimalista, proporcionando uma experiência de navegação intuitiva e destacando meus conhecimentos em desenvolvimento Frontend e Backend.
+
+## 🚀 Tecnologias utilizadas
+
+- **Next.js** — Framework React para aplicações web.
+- **React** — Construção de interfaces.
+- **TypeScript** — Tipagem estática e maior segurança no código.
+- **Tailwind CSS** — Estilização responsiva.
+- **Framer Motion** — Animações e transições.
+- **Lucide React** — Ícones de interface.
+- **React Icons** — Ícones de marcas e redes sociais.
+
+## ✨ Funcionalidades
+
+- Apresentação pessoal.
+- Seção sobre mim.
+- Exibição das principais tecnologias e habilidades.
+- Galeria de projetos com links para os repositórios.
+- Links para GitHub e LinkedIn.
+- Animações e efeitos de interação.
+- Layout responsivo para diferentes tamanhos de tela.
+- Navegação por seções.
+
+## 📁 Estrutura do projeto
+
+```text
+renan-portfolio/
+├── public/
+└── src/
+    ├── app/
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── components/
+    │   ├── Navbar.tsx
+    │   ├── Hero.tsx
+    │   ├── About.tsx
+    │   ├── Skills.tsx
+    │   ├── Projects.tsx
+    │   └── Contact.tsx
+    └── data/
+        └── portfolio.ts
+```
+
+## ⚙️ Como executar o projeto
+
+### Pré-requisitos
+
+- Node.js instalado.
+- npm instalado.
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/Renangenito/renan-portfolio.git
+```
+
+### 2. Entre na pasta do projeto
+
+```bash
+cd renan-portfolio
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute em ambiente de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Acesse no navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Build de produção
 
-## Learn More
+Para gerar a versão de produção:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para executar a aplicação compilada:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+## 🎯 Objetivo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto tem como objetivo centralizar minha presença profissional na área de tecnologia, apresentar meus projetos e demonstrar minha evolução contínua como desenvolvedor.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Também funciona como um espaço para aplicar boas práticas de desenvolvimento, explorar tecnologias e aprimorar minhas habilidades na construção de aplicações web.
+
+## 📬 Contato
+
+- **GitHub:** [@Renangenito](https://github.com/Renangenito)
+- **LinkedIn:** [Renan Lima](https://www.linkedin.com/in/renan-lima-dev/)
+
+---
+
+Desenvolvido por **Renan Lima** com Next.js, React e TypeScript.
