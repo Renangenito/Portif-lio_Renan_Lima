@@ -62,6 +62,16 @@ export const skills = [
     ],
   },
   {
+    category: "AI & Machine Learning",
+    technologies: [
+      "LLMs",
+      "MCP (Model Context Protocol)",
+      "OpenAI API",
+      "Prompt Engineering",
+      "Claude IA",
+    ],
+  },
+  {
     category: "Tools",
     technologies: [
       "Git",
@@ -73,6 +83,15 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "CalculadoraROI - (Privado)",
+    description:
+      "Projeto Web em .NET MVC para simulação de ROI da AcertPix, permitindo que potenciais clientes inserissem dados de sua operação e visualizassem uma estimativa do retorno financeiro da solução de documentoscopia e validação de identidade. O projeto apoiou o time comercial na demonstração de valor, qualificação de oportunidades e tomada de decisão dos clientes.",
+    technologies: ["C#", "ASP.NET MVC", "MySQL", "Razor do ASP.NET", "Bootstrap", "Git", "Azure DevOps"],
+    github:
+      "/",
+    visibilidade: "Privado",
+  },
   {
     title: "API Node.js + Express + MySQL",
     description:
@@ -107,5 +126,5 @@ export const projects = [
     technologies: ["HTML", "CSS"],
     github:
       "https://github.com/Renangenito/Portifolio-HTML-e-CSS",
-  },
+  }
 ];

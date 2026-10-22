@@ -25,7 +25,7 @@ export default function Home() {
       <footer className="border-t border-white/[0.06] py-8">
         <div className="container flex flex-col justify-between gap-4 text-sm text-neutral-600 md:flex-row">
           <p>
-            © {new Date().getFullYear()} Renan Lima.
+            © 2026 Renan Lima.
           </p>
 
           <p>

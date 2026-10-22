@@ -88,6 +88,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              
             </motion.article>
           ))}
         </div>
